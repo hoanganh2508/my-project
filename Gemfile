@@ -30,6 +30,9 @@ gem 'bootstrap-sass', '3.4.1'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'bcrypt'
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :development, :test do
   gem 'pry-rails'

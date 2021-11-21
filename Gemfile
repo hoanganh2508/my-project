@@ -33,6 +33,8 @@ gem 'bcrypt'
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'dotenv-rails'
+
 
 group :development, :test do
   gem 'pry-rails'
